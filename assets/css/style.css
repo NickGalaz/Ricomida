@@ -1,0 +1,59 @@
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+.logo,
+h5 span {
+  font-family: 'Lobster', cursive;
+}
+
+/* linea horizontal */
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 3px solid rgb(165, 165, 165);
+}
+
+/* forma circular de indicadores */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 2px;
+}
+
+/* inline block para hacer el subrayado del tamaño de los títulos */
+#receta h6 {
+  padding-bottom: 7px;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+}
+
+/* para quitar el margen y padding de esta sección */
+article ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* quita los bullet points */
+ul li {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+ol {
+  margin: 0;
+}
+
+.steps li {
+  padding-bottom: 40px;
+}
+
+.newsletter {
+  padding: 120px 0;
+}
+
+.mail-fav {
+  font-size: 12px;
+}
